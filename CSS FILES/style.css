@@ -1,0 +1,71 @@
+  @media (min-width: 1000px)
+  {
+.container-fluid{
+     background-color: #EF4247;
+	 border-color: #EF4247;
+	}
+.container-fluid  .navbar-header > a{
+	color: white;
+	}
+.container-fluid  .navbar-collapse .navbar-nav > li > a {
+    color: white;
+}
+.part1{
+    font-family: 'Avenir Next', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1.5;
+      padding: 1em;
+      margin-top:-20px;
+	  background-size:cover;
+      color: rgba(255,255,255,.8);
+      background-color: #f40;
+      background-image: linear-gradient(#f40, #f37);
+	overflow:hidden;
+	min-height:100%;
+	}
+}
+
+.container-fluid{
+     background-color: #EF4247;
+	 border-color: #EF4247;
+	}
+.container-fluid  .navbar-header > a{
+	color: white;
+	}
+.container-fluid  .navbar-collapse .navbar-nav > li > a {
+    color: white;
+}
+.part1{
+    font-family: 'Avenir Next', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1.5;
+      padding: 2em;
+      margin-top:-20px;
+	  background-size:cover;
+      color: rgba(255,255,255,.8);
+      background-color: #f40;
+      background-image: linear-gradient(#f40, #f37);
+	overflow:hidden;
+	min-height:100%;
+	}
+
+.py2{
+	line-height:20px;
+	}
+ 
+ 
+
+  
+
+
+
+	
+ 
+
+
+
+	
+
+	
