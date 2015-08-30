@@ -55,8 +55,11 @@
 <p style="font-size:125%; text-align:center;"><a href="page1.html">MY RESUME AND WORK EXPERIENCE</a></p>
 <p style="font-size:125%; text-align:center;"><a href="photoindex.html">LIFE IN PHOTOS</a></p>
 <p style="font-size:125%; text-align:center;"><a href="index1.html">MAIL ME</a></p>
+<<<<<<< HEAD
 <p style="font-size:125%; text-align:center;"><a href="form.html">LEAVE A COMMENT</a></p>
 
+=======
+>>>>>>> 1c1265a8c2082f5698a04daec71da5a7887fe493
 
 <hr>
 <?php include 'count.php';

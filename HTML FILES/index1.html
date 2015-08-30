@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+	 </head>
+<body>
+<div class="red-background-not-on-body-or-html">
+<div class="container-fluid">
+<div data-fitter-happier-text class=""><h1>I love reading mail. Send me some!</h1></div>
+<form class="form-horizontal" action="mail.php" method="post" >
+
+  <div class="control-group">
+
+    <label class="control-label" for="inputEmail">Email</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="Email" name="subject">
+    </div>
+  </div>
+  <div class="control-group">
+  <label class="control-label" for="textarea">Text Area</label>
+  <div class="controls">                     
+    <textarea id="textarea"  rows="10" name="message" placeholder="Enter your message here:"></textarea>
+  </div>
+</div>
+<br/><br/>
+<button type="submit" class="btn">Submit</button>
+
+
+</form>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="fitter-happier-text.js"></script>
+	<script type="text/javascript"></script>
+	<script>
+    var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+    fitterHappierText(nodes, { baseline: 16,  paddingY: 6 });
+  </script>
+	</div>
+</div>	
+</body>
+</html>
